@@ -249,7 +249,7 @@ std::string HelpMessage()
                                                 "solved instantly. This is intended for regression testing tools and app development.") + "\n";
     strUsage += "  -rpcuser=<user>        " + _("Username for JSON-RPC connections") + "\n";
     strUsage += "  -rpcpassword=<pw>      " + _("Password for JSON-RPC connections") + "\n";
-    strUsage += "  -rpcport=<port>        " + _("Listen for JSON-RPC connections on <port> (default: 17171)") + "\n";
+    strUsage += "  -rpcport=<port>        " + _("Listen for JSON-RPC connections on <port> (default: 58787)") + "\n";
     strUsage += "  -rpcallowip=<ip>       " + _("Allow JSON-RPC connections from specified IP address") + "\n";
     if (!fHaveGUI){
         strUsage += "  -rpcconnect=<ip>       " + _("Send commands to node running on <ip> (default: 127.0.0.1)") + "\n";
@@ -297,7 +297,7 @@ strUsage += "\n" + _("Masternode options:") + "\n";
 
     strUsage += "\n" + _("InstantX options:") + "\n";
     strUsage += "  -enableinstantx=<n>    " + _("Enable instantx, show confirmations for locked transactions (bool, default: true)") + "\n";
-    strUsage += "  -instantxdepth=<n>     " + strprintf(_("Show N confirmations for a successfully locked transaction (0-9999, default: %u)"), nInstantXDepth) + "\n"; 
+    strUsage += "  -instantxdepth=<n>     " + strprintf(_("Show N confirmations for a successfully locked transaction (0-9999, default: %u)"), nInstantXDepth) + "\n";
     strUsage += _("Secure messaging options:") + "\n" +
         "  -nosmsg                                  " + _("Disable secure messaging.") + "\n" +
         "  -debugsmsg                               " + _("Log extra debug messages.") + "\n" +
@@ -465,7 +465,7 @@ bool AppInit2(boost::thread_group& threadGroup)
         fServer = true;
     else
     	fServer = GetBoolArg("-server", false);
-    if (!fHaveGUI) 
+    if (!fHaveGUI)
        fServer = true;
     fPrintToConsole = GetBoolArg("-printtoconsole", false);
     fLogTimestamps = GetBoolArg("-logtimestamps", true);
@@ -549,7 +549,7 @@ bool AppInit2(boost::thread_group& threadGroup)
     nMasternodeMinProtocol = GetArg("-masternodeminprotocol", MIN_POOL_PEER_PROTO_VERSION);
 
     if (fDaemon)
-        fprintf(stdout, "NewCopyCoin server starting\n"); 
+        fprintf(stdout, "NewCopyCoin server starting\n");
 
     int64_t nStart;
 
@@ -682,7 +682,7 @@ bool AppInit2(boost::thread_group& threadGroup)
         return InitError(strprintf("Total length of network version string %i exceeds maximum of %i characters. Reduce the number and/or size of uacomments.",
             strSubVersion.size(), MAX_SUBVERSION_LENGTH));
     }
-    
+
     if (mapArgs.count("-onlynet")) {
         std::set<enum Network> nets;
         BOOST_FOREACH(std::string snet, mapMultiArgs["-onlynet"]) {
@@ -961,7 +961,7 @@ bool AppInit2(boost::thread_group& threadGroup)
            addrman.size(), GetTimeMillis() - nStart);
 
     // ********************************************************* Step 10.1: startup secure messaging
-    
+
     SecureMsgStart(fNoSmsg, GetBoolArg("-smsgscanchain", false));
 
     // ********************************************************* Step 11: start node
