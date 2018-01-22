@@ -3,27 +3,27 @@
 <plist version="0.9">
 <dict>
 	<key>CFBundleIconFile</key>
-	<string>numus.icns</string>
+	<string>newcopycoin.icns</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleGetInfoString</key>
-	<string>Numus-Qt</string>
+	<string>NewCopyCoin-Qt</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleExecutable</key>
-	<string>Numus-Qt</string>
+	<string>NewCopyCoin-Qt</string>
 	<key>CFBundleIdentifier</key>
-	<string>co.numus.Numus-Qt</string>
+	<string>co.newcopycoin.NewCopyCoin-Qt</string>
         <key>CFBundleURLTypes</key>
         <array>
           <dict>
             <key>CFBundleTypeRole</key>
             <string>Editor</string>
             <key>CFBundleURLName</key>
-            <string>co.numus.NumusPayment</string>
+            <string>co.newcopycoin.NewCopyCoinPayment</string>
             <key>CFBundleURLSchemes</key>
             <array>
-              <string>numus</string>
+              <string>newcopycoin</string>
             </array>
           </dict>
         </array>

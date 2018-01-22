@@ -17,7 +17,7 @@ class ZnumwNodeConfigDialog : public QDialog
     Q_OBJECT
 
 public:
-    explicit ZnumwNodeConfigDialog(QWidget *parent = 0, QString nodeAddress = "123.456.789.123:28121", QString privkey="MASTERNODEPRIVKEY");
+    explicit ZnumwNodeConfigDialog(QWidget *parent = 0, QString nodeAddress = "123.456.789.123:58786", QString privkey="MASTERNODEPRIVKEY");
     ~ZnumwNodeConfigDialog();
 
 private:

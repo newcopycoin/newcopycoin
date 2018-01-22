@@ -66,13 +66,13 @@ void OptionsModel::Init()
     if (!settings.contains("nDarksendRounds"))
         settings.setValue("nDarksendRounds", 2);
     nDarksendRounds = settings.value("nDarksendRounds").toLongLong();
-    if (!settings.contains("nAnonymizeNumusAmount"))
-        settings.setValue("nAnonymizeNumusAmount", 1000);
-    nAnonymizeNumusAmount = settings.value("nAnonymizeNumusAmount").toLongLong();
+    if (!settings.contains("nAnonymizeNewCopyCoinAmount"))
+        settings.setValue("nAnonymizeNewCopyCoinAmount", 1000);
+    nAnonymizeNewCopyCoinAmount = settings.value("nAnonymizeNewCopyCoinAmount").toLongLong();
     if (settings.contains("nDarksendRounds"))
         SoftSetArg("-darksendrounds", settings.value("nDarksendRounds").toString().toStdString());
-    if (settings.contains("nAnonymizeNumusAmount"))
-        SoftSetArg("-anonymizetraveamount", settings.value("nAnonymizeNumusAmount").toString().toStdString());
+    if (settings.contains("nAnonymizeNewCopyCoinAmount"))
+        SoftSetArg("-anonymizetraveamount", settings.value("nAnonymizeNewCopyCoinAmount").toString().toStdString());
 
 
 
@@ -206,8 +206,8 @@ QVariant OptionsModel::data(const QModelIndex & index, int role) const
             return fCoinControlFeatures;
         case DarksendRounds:
             return QVariant(nDarksendRounds);
-        case AnonymizeNumusAmount:
-            return QVariant(nAnonymizeNumusAmount);
+        case AnonymizeNewCopyCoinAmount:
+            return QVariant(nAnonymizeNewCopyCoinAmount);
         case UseBlackTheme:
             return QVariant(fUseBlackTheme);
         default:
@@ -318,10 +318,10 @@ bool OptionsModel::setData(const QModelIndex & index, const QVariant & value, in
             settings.setValue("nDarksendRounds", nDarksendRounds);
             emit darksendRoundsChanged(nDarksendRounds);
             break;
-        case AnonymizeNumusAmount:
-            nAnonymizeNumusAmount = value.toInt();
-            settings.setValue("nAnonymizeNumusAmount", nAnonymizeNumusAmount);
-            emit AnonymizeNumusAmountChanged(nAnonymizeNumusAmount);
+        case AnonymizeNewCopyCoinAmount:
+            nAnonymizeNewCopyCoinAmount = value.toInt();
+            settings.setValue("nAnonymizeNewCopyCoinAmount", nAnonymizeNewCopyCoinAmount);
+            emit AnonymizeNewCopyCoinAmountChanged(nAnonymizeNewCopyCoinAmount);
             break;
         default:
             break;

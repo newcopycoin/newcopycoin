@@ -111,7 +111,7 @@ void Shutdown()
     TRY_LOCK(cs_Shutdown, lockShutdown);
     if (!lockShutdown) return;
 
-    RenameThread("numus-shutoff");
+    RenameThread("newcopycoin-shutoff");
     mempool.AddTransactionsUpdated(1);
     StopRPCThreads();
     SecureMsgShutdown();
@@ -188,8 +188,8 @@ std::string HelpMessage()
 {
     string strUsage = _("Options:") + "\n";
     strUsage += "  -?                     " + _("This help message") + "\n";
-    strUsage += "  -conf=<file>           " + _("Specify configuration file (default: numus.conf)") + "\n";
-    strUsage += "  -pid=<file>            " + _("Specify pid file (default: numusd.pid)") + "\n";
+    strUsage += "  -conf=<file>           " + _("Specify configuration file (default: newcopycoin.conf)") + "\n";
+    strUsage += "  -pid=<file>            " + _("Specify pid file (default: newcopycoind.pid)") + "\n";
     strUsage += "  -datadir=<dir>         " + _("Specify data directory") + "\n";
     strUsage += "  -wallet=<dir>          " + _("Specify wallet file (within data directory)") + "\n";
     strUsage += "  -dbcache=<n>           " + _("Set database cache size in megabytes (default: 10)") + "\n";
@@ -292,7 +292,7 @@ strUsage += "\n" + _("Masternode options:") + "\n";
     strUsage += "\n" + _("Darksend options:") + "\n";
     strUsage += "  -enabledarksend=<n>          " + _("Enable use of automated darksend for funds stored in this wallet (0-1, default: 0)") + "\n";
     strUsage += "  -darksendrounds=<n>          " + _("Use N separate masternodes to anonymize funds  (2-8, default: 2)") + "\n";
-    strUsage += "  -anonymizenumusamount=<n> " + _("Keep N Numus anonymized (default: 0)") + "\n";
+    strUsage += "  -anonymizenewcopycoinamount=<n> " + _("Keep N NewCopyCoin anonymized (default: 0)") + "\n";
     strUsage += "  -liquidityprovider=<n>       " + _("Provide liquidity to Darksend by infrequently mixing coins on a continual basis (0-100, default: 0, 1=very frequent, high fees, 100=very infrequent, low fees)") + "\n";
 
     strUsage += "\n" + _("InstantX options:") + "\n";
@@ -508,7 +508,7 @@ bool AppInit2(boost::thread_group& threadGroup)
 
     // Sanity check
     if (!InitSanityCheck())
-        return InitError(_("Initialization sanity check failed. Numus is shutting down."));
+        return InitError(_("Initialization sanity check failed. NewCopyCoin is shutting down."));
 
     std::string strDataDir = GetDataDir().string();
 #ifdef ENABLE_WALLET
@@ -524,12 +524,12 @@ bool AppInit2(boost::thread_group& threadGroup)
     if (file) fclose(file);
     static boost::interprocess::file_lock lock(pathLockFile.string().c_str());
     if (!lock.try_lock())
-        return InitError(strprintf(_("Cannot obtain a lock on data directory %s. Numus is probably already running."), strDataDir));
+        return InitError(strprintf(_("Cannot obtain a lock on data directory %s. NewCopyCoin is probably already running."), strDataDir));
 
     if (GetBoolArg("-shrinkdebugfile", !fDebug))
         ShrinkDebugFile();
     LogPrintf("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
-    LogPrintf("Numus version %s (%s)\n", FormatFullVersion(), CLIENT_DATE);
+    LogPrintf("NewCopyCoin version %s (%s)\n", FormatFullVersion(), CLIENT_DATE);
     LogPrintf("Using OpenSSL version %s\n", SSLeay_version(SSLEAY_VERSION));
     if (!fLogTimestamps)
         LogPrintf("Startup time: %s\n", DateTimeStrFormat("%x %H:%M:%S", GetTime()));
@@ -549,7 +549,7 @@ bool AppInit2(boost::thread_group& threadGroup)
     nMasternodeMinProtocol = GetArg("-masternodeminprotocol", MIN_POOL_PEER_PROTO_VERSION);
 
     if (fDaemon)
-        fprintf(stdout, "Numus server starting\n"); 
+        fprintf(stdout, "NewCopyCoin server starting\n"); 
 
     int64_t nStart;
 
@@ -862,10 +862,10 @@ bool AppInit2(boost::thread_group& threadGroup)
                 InitWarning(msg);
             }
             else if (nLoadWalletRet == DB_TOO_NEW)
-                strErrors << _("Error loading wallet.dat: Wallet requires newer version of Numus") << "\n";
+                strErrors << _("Error loading wallet.dat: Wallet requires newer version of NewCopyCoin") << "\n";
             else if (nLoadWalletRet == DB_NEED_REWRITE)
             {
-                strErrors << _("Wallet needed to be rewritten: restart Numus to complete") << "\n";
+                strErrors << _("Wallet needed to be rewritten: restart NewCopyCoin to complete") << "\n";
                 LogPrintf("%s", strErrors.str());
                 return InitError(strErrors.str());
             }
@@ -1047,9 +1047,9 @@ bool AppInit2(boost::thread_group& threadGroup)
         nDarksendRounds = 99999;
     }
 
-    nAnonymizeNumusAmount = GetArg("-anonymizenumusamount", 0);
-    if(nAnonymizeNumusAmount > 999999) nAnonymizeNumusAmount = 999999;
-    if(nAnonymizeNumusAmount < 2) nAnonymizeNumusAmount = 2;
+    nAnonymizeNewCopyCoinAmount = GetArg("-anonymizenewcopycoinamount", 0);
+    if(nAnonymizeNewCopyCoinAmount > 999999) nAnonymizeNewCopyCoinAmount = 999999;
+    if(nAnonymizeNewCopyCoinAmount < 2) nAnonymizeNewCopyCoinAmount = 2;
 
     fEnableInstantX = GetBoolArg("-enableinstantx", fEnableInstantX);
     nInstantXDepth = GetArg("-instantxdepth", nInstantXDepth);
@@ -1064,14 +1064,14 @@ bool AppInit2(boost::thread_group& threadGroup)
     LogPrintf("fLiteMode %d\n", fLiteMode);
     LogPrintf("nInstantXDepth %d\n", nInstantXDepth);
     LogPrintf("Darksend rounds %d\n", nDarksendRounds);
-    LogPrintf("Anonymize Numus Amount %d\n", nAnonymizeNumusAmount);
+    LogPrintf("Anonymize NewCopyCoin Amount %d\n", nAnonymizeNewCopyCoinAmount);
 
     /* Denominations
        A note about convertability. Within Darksend pools, each denomination
        is convertable to another.
        For example:
-       1NMS+1000 == (.1NMS+100)*10
-       10NMS+10000 == (1NMS+1000)*10
+       1CPY+1000 == (.1CPY+100)*10
+       10CPY+10000 == (1CPY+1000)*10
     */
     darkSendDenominations.push_back( (1000        * COIN)+1000000 );
     darkSendDenominations.push_back( (100         * COIN)+100000 );

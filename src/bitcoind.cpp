@@ -52,12 +52,12 @@ bool AppInit(int argc, char* argv[])
         if (mapArgs.count("-?") || mapArgs.count("--help"))
         {
             // First part of help message is specific to bitcoind / RPC client
-            std::string strUsage = _("Numus version") + " " + FormatFullVersion() + "\n\n" +
+            std::string strUsage = _("NewCopyCoin version") + " " + FormatFullVersion() + "\n\n" +
                 _("Usage:") + "\n" +
-                  "  numusd [options]                     " + "\n" +
-                  "  numusd [options] <command> [params]  " + _("Send command to -server or numusd") + "\n" +
-                  "  numusd [options] help                " + _("List commands") + "\n" +
-                  "  numusd [options] help <command>      " + _("Get help for a command") + "\n";
+                  "  newcopycoind [options]                     " + "\n" +
+                  "  newcopycoind [options] <command> [params]  " + _("Send command to -server or newcopycoind") + "\n" +
+                  "  newcopycoind [options] help                " + _("List commands") + "\n" +
+                  "  newcopycoind [options] help <command>      " + _("Get help for a command") + "\n";
 
             strUsage += "\n" + HelpMessage();
 
@@ -67,7 +67,7 @@ bool AppInit(int argc, char* argv[])
 
         // Command-line RPC
         for (int i = 1; i < argc; i++)
-            if (!IsSwitchChar(argv[i][0]) && !boost::algorithm::istarts_with(argv[i], "numus:"))
+            if (!IsSwitchChar(argv[i][0]) && !boost::algorithm::istarts_with(argv[i], "newcopycoin:"))
                 fCommandLine = true;
 
         if (fCommandLine)

@@ -36,15 +36,15 @@ static void convertSeeds(std::vector<CAddress> &vSeedsOut, const unsigned int *d
     {
         struct in_addr ip;
         unsigned int i = data[k], t;
-        
+
         // -- convert to big endian
         t =   (i & 0x000000ff) << 24u
             | (i & 0x0000ff00) << 8u
             | (i & 0x00ff0000) >> 8u
             | (i & 0xff000000) >> 24u;
-        
+
         memcpy(&ip, &t, sizeof(ip));
-        
+
         CAddress addr(CService(ip, port));
         addr.nTime = GetTime()-GetRand(nOneWeek)-nOneWeek;
         vSeedsOut.push_back(addr);
@@ -63,9 +63,9 @@ public:
         pchMessageStart[1] = 0xec;
         pchMessageStart[2] = 0xa1;
         pchMessageStart[3] = 0xc7;
-        vAlertPubKey = ParseHex("04385de46b70a844e6ad1481322483d60c7b866399573a7791fb721beac91569cf9d4ce2f844132f09a58260d0e3c3117f36d7749b99cd9dd96d7c6ad8fef289d8");        
-        nDefaultPort = 28121;
-        nRPCPort = 28122;
+        vAlertPubKey = ParseHex("04385de46b70a844e6ad1481322483d60c7b866399573a7791fb721beac91569cf9d4ce2f844132f09a58260d0e3c3117f36d7749b99cd9dd96d7c6ad8fef289d8");
+        nDefaultPort = 58786;
+        nRPCPort = 58787;
         bnProofOfWorkLimit = CBigNum(~uint256(0) >> 16);
 
         const char* pszTimestamp = "Sydney FC 3 - 1 Melbourne City FC 03/15/2017";
@@ -84,14 +84,14 @@ public:
         genesis.nBits    = bnProofOfWorkLimit.GetCompact();
         genesis.nNonce   = 528013;
 
-		
-    
+
+
         hashGenesisBlock = genesis.GetHash();
 
         assert(hashGenesisBlock == uint256("0x0711d3aa8846a5a90ab56f0653e066351080f095661c573a45cb94737a82c37c"));
         assert(genesis.hashMerkleRoot == uint256("0xe870f6e7be374a0677974154f04173064623a4a1f1362704e09019e34cebdc3f"));
 
-        
+
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,21);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,20);
         base58Prefixes[SECRET_KEY] =     std::vector<unsigned char>(1,25);
@@ -99,13 +99,13 @@ public:
         base58Prefixes[EXT_PUBLIC_KEY] = list_of(0x04)(0x88)(0xB2)(0x1E).convert_to_container<std::vector<unsigned char> >();
         base58Prefixes[EXT_SECRET_KEY] = list_of(0x04)(0x88)(0xAD)(0xE4).convert_to_container<std::vector<unsigned char> >();
 
-        
+
         vSeeds.push_back(CDNSSeedData("0","141.255.161.78"));
         vSeeds.push_back(CDNSSeedData("1","143.202.154.31"));
         convertSeeds(vFixedSeeds, pnSeed, ARRAYLEN(pnSeed), nDefaultPort);
 
         nPoolMaxTransactions = 3;
-     
+
         strDarksendPoolDummyAddress = "9frEPbxv2ANZzrViEqTCWaBL8S63FQHz9s";
         nLastPOWBlock = 100000;
         nPOSStartBlock = 100;
@@ -210,9 +210,9 @@ void SelectParams(CChainParams::Network network) {
 }
 
 bool SelectParamsFromCommandLine() {
-    
+
     bool fTestNet = GetBoolArg("-testnet", false);
-    
+
     if (fTestNet) {
         SelectParams(CChainParams::TESTNET);
     } else {

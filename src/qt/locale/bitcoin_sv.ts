@@ -3,22 +3,22 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About Numus</source>
-        <translation>Vad du behöver veta om Numus</translation>
+        <source>About NewCopyCoin</source>
+        <translation>Vad du behöver veta om NewCopyCoin</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;Numus&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;Numus&lt;/b&gt; version</translation>
+        <source>&lt;b&gt;NewCopyCoin&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;NewCopyCoin&lt;/b&gt; version</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2015-2017 The Numus developers</source>
+Copyright © 2015-2017 The NewCopyCoin developers</source>
         <translation>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2015-2017 The Numus developers</translation>
+Copyright © 2015-2017 The NewCopyCoin developers</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -60,8 +60,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-43"/>
-        <source>These are your Numus addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Dessa är dina Numus adesser för att mottaga betalningsförsändelser. Du kan även använda olika adresser för varje avsändare för att enkelt hålla koll på vem som har skickat en betalning.</translation>
+        <source>These are your NewCopyCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Dessa är dina NewCopyCoin adesser för att mottaga betalningsförsändelser. Du kan även använda olika adresser för varje avsändare för att enkelt hålla koll på vem som har skickat en betalning.</translation>
     </message>
     <message>
         <location line="+53"/>
@@ -75,8 +75,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign a message to prove you own a Numus address</source>
-        <translation>Signera ett meddelande för att bevisa att du äger Numus adressen</translation>
+        <source>Sign a message to prove you own a NewCopyCoin address</source>
+        <translation>Signera ett meddelande för att bevisa att du äger NewCopyCoin adressen</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -90,8 +90,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-10"/>
-        <source>Verify a message to ensure it was signed with a specified Numus address</source>
-        <translation>Verifiera ett meddelande för att försäkra dig över att det var signerat av en specifik Numus adress</translation>
+        <source>Verify a message to ensure it was signed with a specified NewCopyCoin address</source>
+        <translation>Verifiera ett meddelande för att försäkra dig över att det var signerat av en specifik NewCopyCoin adress</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -258,8 +258,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+82"/>
-        <source>Numus will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
-        <translation>Numus plånboken kommer nu att stängas för att slutföra krypteringen: Kom ihåg att även en krypterad plånboks säkerhet kan äventyras genom keyloggers eller dylika malwares.</translation>
+        <source>NewCopyCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <translation>NewCopyCoin plånboken kommer nu att stängas för att slutföra krypteringen: Kom ihåg att även en krypterad plånboks säkerhet kan äventyras genom keyloggers eller dylika malwares.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -352,8 +352,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about Numus</source>
-        <translation>Visa information om Numus</translation>
+        <source>Show information about NewCopyCoin</source>
+        <translation>Visa information om NewCopyCoin</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -392,13 +392,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-55"/>
-        <source>Send coins to a Numus address</source>
-        <translation>Skicka coins till en Numus adress</translation>
+        <source>Send coins to a NewCopyCoin address</source>
+        <translation>Skicka coins till en NewCopyCoin adress</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>Modify configuration options for Numus</source>
-        <translation>Modifiera konfigurations-alternativ för Numus</translation>
+        <source>Modify configuration options for NewCopyCoin</source>
+        <translation>Modifiera konfigurations-alternativ för NewCopyCoin</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -438,8 +438,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-214"/>
         <location line="+551"/>
-        <source>Numus</source>
-        <translation>Numus</translation>
+        <source>NewCopyCoin</source>
+        <translation>NewCopyCoin</translation>
     </message>
     <message>
         <location line="-551"/>
@@ -448,8 +448,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+193"/>
-        <source>&amp;About Numus</source>
-        <translation>&amp;Om Numus</translation>
+        <source>&amp;About NewCopyCoin</source>
+        <translation>&amp;Om NewCopyCoin</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -500,13 +500,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+0"/>
         <location line="+58"/>
-        <source>Numus client</source>
-        <translation>Numus klient</translation>
+        <source>NewCopyCoin client</source>
+        <translation>NewCopyCoin klient</translation>
     </message>
     <message numerus="yes">
         <location line="+70"/>
-        <source>%n active connection(s) to Numus network</source>
-        <translation><numerusform>%n aktiv anslutning till Numus nätverket</numerusform><numerusform>%n aktiva anslutning till Numus nätverket</numerusform></translation>
+        <source>%n active connection(s) to NewCopyCoin network</source>
+        <translation><numerusform>%n aktiv anslutning till NewCopyCoin nätverket</numerusform><numerusform>%n aktiva anslutning till NewCopyCoin nätverket</numerusform></translation>
     </message>
     <message>
         <location line="+488"/>
@@ -600,8 +600,8 @@ Adress: %4
     <message>
         <location line="-15"/>
         <location line="+15"/>
-        <source>URI can not be parsed! This can be caused by an invalid Numus address or malformed URI parameters.</source>
-        <translation>URI:n kan inte tolkas! Detta kan bero på en ogiltig Numus adress eller felaktiga URI parametrar.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid NewCopyCoin address or malformed URI parameters.</source>
+        <translation>URI:n kan inte tolkas! Detta kan bero på en ogiltig NewCopyCoin adress eller felaktiga URI parametrar.</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -723,8 +723,8 @@ Adress: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+104"/>
-        <source>A fatal error occurred. Numus can no longer continue safely and will quit.</source>
-        <translation>Ett fatalt fel uppstod. Numus kan inte fortsätta och stänger programmet.</translation>
+        <source>A fatal error occurred. NewCopyCoin can no longer continue safely and will quit.</source>
+        <translation>Ett fatalt fel uppstod. NewCopyCoin kan inte fortsätta och stänger programmet.</translation>
     </message>
 </context>
 <context>
@@ -1018,7 +1018,7 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     <message>
         <location line="+10"/>
         <source>The label associated with this address book entry</source>
-        <translation>Namnet som kopplats till denna Numus-adress</translation>
+        <translation>Namnet som kopplats till denna NewCopyCoin-adress</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -1057,8 +1057,8 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid Numus address.</source>
-        <translation>Den inslagna adressen &quot;%1&quot; är inte en giltig Numus adress.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid NewCopyCoin address.</source>
+        <translation>Den inslagna adressen &quot;%1&quot; är inte en giltig NewCopyCoin adress.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1076,8 +1076,8 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     <message>
         <location filename="../guiutil.cpp" line="+426"/>
         <location line="+12"/>
-        <source>Numus-Qt</source>
-        <translation>Numus-Qt</translation>
+        <source>NewCopyCoin-Qt</source>
+        <translation>NewCopyCoin-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -1149,13 +1149,13 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start Numus after logging in to the system.</source>
-        <translation>Starta Numus automatiskt vid inloggning.</translation>
+        <source>Automatically start NewCopyCoin after logging in to the system.</source>
+        <translation>Starta NewCopyCoin automatiskt vid inloggning.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start Numus on system login</source>
-        <translation>&amp;Starta Numus vid inloggning</translation>
+        <source>&amp;Start NewCopyCoin on system login</source>
+        <translation>&amp;Starta NewCopyCoin vid inloggning</translation>
     </message>
     <message>
         <location line="+21"/>
@@ -1164,8 +1164,8 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the Numus client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Öppna automatiskt Numus klientens port på routern. Detta fungerar endast om din router stödjer UPnP och det är aktiverat.</translation>
+        <source>Automatically open the NewCopyCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Öppna automatiskt NewCopyCoin klientens port på routern. Detta fungerar endast om din router stödjer UPnP och det är aktiverat.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1174,8 +1174,8 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the Numus network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Anslut till Numus nätverket via en SOCKS proxy (t.ex. när du ansluter genom Tor).</translation>
+        <source>Connect to the NewCopyCoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Anslut till NewCopyCoin nätverket via en SOCKS proxy (t.ex. när du ansluter genom Tor).</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1249,8 +1249,8 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting Numus.</source>
-        <translation>Användargränssnittets språk kan ställas in här. Inställningen börjar gälla efter omstart av Numus.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting NewCopyCoin.</source>
+        <translation>Användargränssnittets språk kan ställas in här. Inställningen börjar gälla efter omstart av NewCopyCoin.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -1316,8 +1316,8 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting Numus.</source>
-        <translation>Inställningen börjar gälla efter omstart av Numus.</translation>
+        <source>This setting will take effect after restarting NewCopyCoin.</source>
+        <translation>Inställningen börjar gälla efter omstart av NewCopyCoin.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1335,8 +1335,8 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     <message>
         <location line="+46"/>
         <location line="+247"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Numus network after a connection is established, but this process has not completed yet.</source>
-        <translation>Den visade informationen kan vara gammal. Din plånbok synkroniseras automatiskt med Numus nätverket efter att en anslutning skapats, men denna process är inte klar än.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the NewCopyCoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Den visade informationen kan vara gammal. Din plånbok synkroniseras automatiskt med NewCopyCoin nätverket efter att en anslutning skapats, men denna process är inte klar än.</translation>
     </message>
     <message>
         <location line="-173"/>
@@ -1577,8 +1577,8 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the Numus-Qt help message to get a list with possible Numus command-line options.</source>
-        <translation>Visa Numus-Qt hjälp meddelandet för att få en lista över möjliga Numus kommandoradsalternativ.</translation>
+        <source>Show the NewCopyCoin-Qt help message to get a list with possible NewCopyCoin command-line options.</source>
+        <translation>Visa NewCopyCoin-Qt hjälp meddelandet för att få en lista över möjliga NewCopyCoin kommandoradsalternativ.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1597,13 +1597,13 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     </message>
     <message>
         <location line="-104"/>
-        <source>Numus - Debug window</source>
-        <translation>Numus - Felsökningsfönster</translation>
+        <source>NewCopyCoin - Debug window</source>
+        <translation>NewCopyCoin - Felsökningsfönster</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>Numus Core</source>
-        <translation>Numus Core</translation>
+        <source>NewCopyCoin Core</source>
+        <translation>NewCopyCoin Core</translation>
     </message>
     <message>
         <location line="+256"/>
@@ -1612,8 +1612,8 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the Numus debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Öppna Numus felsöknings-loggfilen från nuvarande data mapp. Detta kan kan ta ett par minuter för stora log filer.</translation>
+        <source>Open the NewCopyCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Öppna NewCopyCoin felsöknings-loggfilen från nuvarande data mapp. Detta kan kan ta ett par minuter för stora log filer.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1622,8 +1622,8 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="+325"/>
-        <source>Welcome to the Numus RPC console.</source>
-        <translation>Välkommen till Numus RPC konsoll.</translation>
+        <source>Welcome to the NewCopyCoin RPC console.</source>
+        <translation>Välkommen till NewCopyCoin RPC konsoll.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1731,8 +1731,8 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
         <location line="+86"/>
         <location line="+86"/>
         <location line="+32"/>
-        <source>0.00 NMS</source>
-        <translation>123.456 NMS {0.00 ?}</translation>
+        <source>0.00 CPY</source>
+        <translation>123.456 CPY {0.00 ?}</translation>
     </message>
     <message>
         <location line="-191"/>
@@ -1801,8 +1801,8 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     </message>
     <message>
         <location line="+16"/>
-        <source>123.456 NMS</source>
-        <translation>123.456 NMS</translation>
+        <source>123.456 CPY</source>
+        <translation>123.456 CPY</translation>
     </message>
     <message>
         <location line="+31"/>
@@ -1816,8 +1816,8 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-173"/>
-        <source>Enter a Numus address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Fyll i en Numus adress (t.ex. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a NewCopyCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Fyll i en NewCopyCoin adress (t.ex. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1916,8 +1916,8 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     </message>
     <message>
         <location line="+247"/>
-        <source>WARNING: Invalid Numus address</source>
-        <translation>VARNING: Ogiltig Numus adress</translation>
+        <source>WARNING: Invalid NewCopyCoin address</source>
+        <translation>VARNING: Ogiltig NewCopyCoin adress</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -1990,8 +1990,8 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a Numus address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Fyll i en Numus adress (t.ex. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a NewCopyCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Fyll i en NewCopyCoin adress (t.ex. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
 </context>
 <context>
@@ -2051,8 +2051,8 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this Numus address</source>
-        <translation>Signera meddelandet för att verifiera att du äger denna Numus adressen</translation>
+        <source>Sign the message to prove you own this NewCopyCoin address</source>
+        <translation>Signera meddelandet för att verifiera att du äger denna NewCopyCoin adressen</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2083,8 +2083,8 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified Numus address</source>
-        <translation>Verifiera meddelandet för att vara säker på att det var signerat med den angivna Numus adressen</translation>
+        <source>Verify the message to ensure it was signed with the specified NewCopyCoin address</source>
+        <translation>Verifiera meddelandet för att vara säker på att det var signerat med den angivna NewCopyCoin adressen</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2094,8 +2094,8 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a Numus address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Fyll i en Numus adress (t.ex. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a NewCopyCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Fyll i en NewCopyCoin adress (t.ex. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -2104,8 +2104,8 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter Numus signature</source>
-        <translation>Fyll i Numus signatur</translation>
+        <source>Enter NewCopyCoin signature</source>
+        <translation>Fyll i NewCopyCoin signatur</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -2683,8 +2683,8 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+173"/>
-        <source>Numus version</source>
-        <translation>Numus version</translation>
+        <source>NewCopyCoin version</source>
+        <translation>NewCopyCoin version</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2693,8 +2693,8 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or numusd</source>
-        <translation>Skicka kommando till -server eller numusd</translation>
+        <source>Send command to -server or newcopycoind</source>
+        <translation>Skicka kommando till -server eller newcopycoind</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2713,13 +2713,13 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Specify configuration file (default: numus.conf)</source>
-        <translation>Ange konfigurationsfilen (standard: numus.conf)</translation>
+        <source>Specify configuration file (default: newcopycoin.conf)</source>
+        <translation>Ange konfigurationsfilen (standard: newcopycoin.conf)</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: numusd.pid)</source>
-        <translation>Ange pid filen (standard numusd.pid)</translation>
+        <source>Specify pid file (default: newcopycoind.pid)</source>
+        <translation>Ange pid filen (standard newcopycoind.pid)</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2736,13 +2736,13 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=numusrpc
+rpcuser=newcopycoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Numus Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;NewCopyCoin Alert&quot; admin@foo.com
 </source>
         <translation type="unfinished"/>
     </message>
@@ -2848,8 +2848,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Numus Alert&quot; admin@foo.co
     </message>
     <message>
         <location line="-103"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Numus will not work properly.</source>
-        <translation>Varning: Kolla att din dators tid och datum är rätt. Numus kan inte fungera ordentligt om tiden i datorn är fel.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong NewCopyCoin will not work properly.</source>
+        <translation>Varning: Kolla att din dators tid och datum är rätt. NewCopyCoin kan inte fungera ordentligt om tiden i datorn är fel.</translation>
     </message>
     <message>
         <location line="+132"/>
@@ -3155,7 +3155,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Numus Alert&quot; admin@foo.co
     </message>
     <message>
         <location line="+10"/>
-        <source>Initialization sanity check failed. Numus is shutting down.</source>
+        <source>Initialization sanity check failed. NewCopyCoin is shutting down.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3220,13 +3220,13 @@ for example: alertnotify=echo %%s | mail -s &quot;Numus Alert&quot; admin@foo.co
     </message>
     <message>
         <location line="+4"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Numus</source>
-        <translation>Kunde inte ladda wallet.dat: En nyare version av Numus krävs</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of NewCopyCoin</source>
+        <translation>Kunde inte ladda wallet.dat: En nyare version av NewCopyCoin krävs</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart Numus to complete</source>
-        <translation>Plånboken måste skrivas om: Starta om Numus för att slutföra</translation>
+        <source>Wallet needed to be rewritten: restart NewCopyCoin to complete</source>
+        <translation>Plånboken måste skrivas om: Starta om NewCopyCoin för att slutföra</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3290,8 +3290,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Numus Alert&quot; admin@foo.co
     </message>
     <message>
         <location line="+125"/>
-        <source>Unable to bind to %s on this computer. Numus is probably already running.</source>
-        <translation>Kan inte binda till %s på denna dator. Numus är sannolikt redan startad.</translation>
+        <source>Unable to bind to %s on this computer. NewCopyCoin is probably already running.</source>
+        <translation>Kan inte binda till %s på denna dator. NewCopyCoin är sannolikt redan startad.</translation>
     </message>
     <message>
         <location line="-101"/>
@@ -3330,7 +3330,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Numus Alert&quot; admin@foo.co
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. Numus is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. NewCopyCoin is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>

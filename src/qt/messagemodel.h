@@ -67,7 +67,7 @@ struct MessageTableEntry
     }
 };
 
-/** Interface to Numus Secure Messaging from Qt view code. */
+/** Interface to NewCopyCoin Secure Messaging from Qt view code. */
 class MessageModel : public QAbstractTableModel
 {
     Q_OBJECT

@@ -3,22 +3,22 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About Numus</source>
-        <translation>О Numus</translation>
+        <source>About NewCopyCoin</source>
+        <translation>О NewCopyCoin</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;Numus&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;Numus&lt;/b&gt; версия</translation>
+        <source>&lt;b&gt;NewCopyCoin&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;NewCopyCoin&lt;/b&gt; версия</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2015-2017 The Numus developers</source>
+Copyright © 2015-2017 The NewCopyCoin developers</source>
         <translation>Все права защищены © 2009-2014 Разработчики Bitcoin
 Все права защищены © 2012-2014 Разработчики NovaCoin
-Все права защищены © 2015-2017 Разработчики Numus</translation>
+Все права защищены © 2015-2017 Разработчики NewCopyCoin</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -60,7 +60,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-43"/>
-        <source>These are your Numus addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <source>These are your NewCopyCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
         <translation>Это Ваши адреса для получения платежей. Вы можете дать разные адреса отправителям, чтобы отслеживать, кто именно вам платит.</translation>
     </message>
     <message>
@@ -75,8 +75,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign a message to prove you own a Numus address</source>
-        <translation>Подписать сообщение, чтобы доказать владение адресом Numus</translation>
+        <source>Sign a message to prove you own a NewCopyCoin address</source>
+        <translation>Подписать сообщение, чтобы доказать владение адресом NewCopyCoin</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -90,8 +90,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-10"/>
-        <source>Verify a message to ensure it was signed with a specified Numus address</source>
-        <translation>Проверить сообщение, чтобы убедиться, что оно было подписано указанным адресом Numus</translation>
+        <source>Verify a message to ensure it was signed with a specified NewCopyCoin address</source>
+        <translation>Проверить сообщение, чтобы убедиться, что оно было подписано указанным адресом NewCopyCoin</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -258,7 +258,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+82"/>
-        <source>Numus will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <source>NewCopyCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
         <translation>Сейчас программа закроется для завершения процесса шифрования. Помните, что шифрование вашего бумажника не может полностью защитить ваши монеты от кражи с помощью инфицирования вашего компьютера вредоносным ПО.</translation>
     </message>
     <message>
@@ -352,8 +352,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about Numus</source>
-        <translation>Показать информацию о Numus&apos;е</translation>
+        <source>Show information about NewCopyCoin</source>
+        <translation>Показать информацию о NewCopyCoin&apos;е</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -392,13 +392,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-55"/>
-        <source>Send coins to a Numus address</source>
-        <translation>Отправить монеты на указанный адрес Numus</translation>
+        <source>Send coins to a NewCopyCoin address</source>
+        <translation>Отправить монеты на указанный адрес NewCopyCoin</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>Modify configuration options for Numus</source>
-        <translation>Изменить параметры конфигурации Numus</translation>
+        <source>Modify configuration options for NewCopyCoin</source>
+        <translation>Изменить параметры конфигурации NewCopyCoin</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -438,8 +438,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-214"/>
         <location line="+551"/>
-        <source>Numus</source>
-        <translation>Numus</translation>
+        <source>NewCopyCoin</source>
+        <translation>NewCopyCoin</translation>
     </message>
     <message>
         <location line="-551"/>
@@ -448,8 +448,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+193"/>
-        <source>&amp;About Numus</source>
-        <translation>&amp;О Numus</translation>
+        <source>&amp;About NewCopyCoin</source>
+        <translation>&amp;О NewCopyCoin</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -500,12 +500,12 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+0"/>
         <location line="+58"/>
-        <source>Numus client</source>
-        <translation>Numus клиент</translation>
+        <source>NewCopyCoin client</source>
+        <translation>NewCopyCoin клиент</translation>
     </message>
     <message numerus="yes">
         <location line="+70"/>
-        <source>%n active connection(s) to Numus network</source>
+        <source>%n active connection(s) to NewCopyCoin network</source>
         <translation><numerusform>%n активное соединение с сетью</numerusform><numerusform>%n активных соединений с сетью</numerusform><numerusform>%n активных соединений с сетью</numerusform></translation>
     </message>
     <message>
@@ -600,8 +600,8 @@ Address: %4
     <message>
         <location line="-15"/>
         <location line="+15"/>
-        <source>URI can not be parsed! This can be caused by an invalid Numus address or malformed URI parameters.</source>
-        <translation>Не удалось обработать URI! Это может быть связано с неверным адресом Numus или неправильными параметрами URI.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid NewCopyCoin address or malformed URI parameters.</source>
+        <translation>Не удалось обработать URI! Это может быть связано с неверным адресом NewCopyCoin или неправильными параметрами URI.</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -723,8 +723,8 @@ Address: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+104"/>
-        <source>A fatal error occurred. Numus can no longer continue safely and will quit.</source>
-        <translation>Произошла неисправимая ошибка. Numus не может безопасно продолжать работу и будет закрыт.</translation>
+        <source>A fatal error occurred. NewCopyCoin can no longer continue safely and will quit.</source>
+        <translation>Произошла неисправимая ошибка. NewCopyCoin не может безопасно продолжать работу и будет закрыт.</translation>
     </message>
 </context>
 <context>
@@ -1043,8 +1043,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid Numus address.</source>
-        <translation>Введённый адрес &quot;%1&quot; не является правильным Numus-адресом.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid NewCopyCoin address.</source>
+        <translation>Введённый адрес &quot;%1&quot; не является правильным NewCopyCoin-адресом.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1062,8 +1062,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../guiutil.cpp" line="+426"/>
         <location line="+12"/>
-        <source>Numus-Qt</source>
-        <translation>Numus-Qt</translation>
+        <source>NewCopyCoin-Qt</source>
+        <translation>NewCopyCoin-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -1135,13 +1135,13 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start Numus after logging in to the system.</source>
-        <translation>Автоматически запускать Numus после входа в систему</translation>
+        <source>Automatically start NewCopyCoin after logging in to the system.</source>
+        <translation>Автоматически запускать NewCopyCoin после входа в систему</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start Numus on system login</source>
-        <translation>&amp;Запускать Numus при входе в систему</translation>
+        <source>&amp;Start NewCopyCoin on system login</source>
+        <translation>&amp;Запускать NewCopyCoin при входе в систему</translation>
     </message>
     <message>
         <location line="+21"/>
@@ -1150,8 +1150,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the Numus client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Автоматически открыть порт для Numus-клиента на роутере. Работает только если Ваш роутер поддерживает UPnP, и данная функция включена.</translation>
+        <source>Automatically open the NewCopyCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Автоматически открыть порт для NewCopyCoin-клиента на роутере. Работает только если Ваш роутер поддерживает UPnP, и данная функция включена.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1160,8 +1160,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the Numus network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Подключаться к сети Numus через прокси SOCKS (например, при подключении через Tor).</translation>
+        <source>Connect to the NewCopyCoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Подключаться к сети NewCopyCoin через прокси SOCKS (например, при подключении через Tor).</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1235,8 +1235,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting Numus.</source>
-        <translation>Здесь можно выбрать язык интерфейса. Настройки вступят в силу после перезапуска Numus.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting NewCopyCoin.</source>
+        <translation>Здесь можно выбрать язык интерфейса. Настройки вступят в силу после перезапуска NewCopyCoin.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -1302,8 +1302,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting Numus.</source>
-        <translation>Эта настройка вступит в силу после перезапуска Numus</translation>
+        <source>This setting will take effect after restarting NewCopyCoin.</source>
+        <translation>Эта настройка вступит в силу после перезапуска NewCopyCoin</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1321,8 +1321,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+46"/>
         <location line="+247"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Numus network after a connection is established, but this process has not completed yet.</source>
-        <translation>Отображаемая информация может быть устаревшей. Ваш бумажник автоматически синхронизируется с сетью Numus после подключения, но этот процесс пока не завершён.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the NewCopyCoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Отображаемая информация может быть устаревшей. Ваш бумажник автоматически синхронизируется с сетью NewCopyCoin после подключения, но этот процесс пока не завершён.</translation>
     </message>
     <message>
         <location line="-173"/>
@@ -1563,8 +1563,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the Numus-Qt help message to get a list with possible Numus command-line options.</source>
-        <translation>Показать помощь по Numus-Qt, чтобы получить список доступных параметров командной строки.</translation>
+        <source>Show the NewCopyCoin-Qt help message to get a list with possible NewCopyCoin command-line options.</source>
+        <translation>Показать помощь по NewCopyCoin-Qt, чтобы получить список доступных параметров командной строки.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1583,13 +1583,13 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="-104"/>
-        <source>Numus - Debug window</source>
-        <translation>Numus - Окно отладки</translation>
+        <source>NewCopyCoin - Debug window</source>
+        <translation>NewCopyCoin - Окно отладки</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>Numus Core</source>
-        <translation>Ядро Numus</translation>
+        <source>NewCopyCoin Core</source>
+        <translation>Ядро NewCopyCoin</translation>
     </message>
     <message>
         <location line="+256"/>
@@ -1598,8 +1598,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the Numus debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Открыть отладочный лог-файл Numus из текущего каталога данных. Это может занять несколько секунд для больших лог-файлов.</translation>
+        <source>Open the NewCopyCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Открыть отладочный лог-файл NewCopyCoin из текущего каталога данных. Это может занять несколько секунд для больших лог-файлов.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1608,8 +1608,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="+325"/>
-        <source>Welcome to the Numus RPC console.</source>
-        <translation>Добро пожаловать в RPC-консоль Numus.</translation>
+        <source>Welcome to the NewCopyCoin RPC console.</source>
+        <translation>Добро пожаловать в RPC-консоль NewCopyCoin.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1717,7 +1717,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <location line="+86"/>
         <location line="+86"/>
         <location line="+32"/>
-        <source>0.00 NMS</source>
+        <source>0.00 CPY</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1787,8 +1787,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+16"/>
-        <source>123.456 NMS</source>
-        <translation>123.456 NMS</translation>
+        <source>123.456 CPY</source>
+        <translation>123.456 CPY</translation>
     </message>
     <message>
         <location line="+31"/>
@@ -1802,8 +1802,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-173"/>
-        <source>Enter a Numus address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Введите Numus-адрес (например B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a NewCopyCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Введите NewCopyCoin-адрес (например B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1902,7 +1902,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+247"/>
-        <source>WARNING: Invalid Numus address</source>
+        <source>WARNING: Invalid NewCopyCoin address</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1976,8 +1976,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a Numus address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Введите Numus-адрес (например B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a NewCopyCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Введите NewCopyCoin-адрес (например B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
 </context>
 <context>
@@ -2037,8 +2037,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this Numus address</source>
-        <translation>Подписать сообщение, чтобы доказать владение адресом Numus</translation>
+        <source>Sign the message to prove you own this NewCopyCoin address</source>
+        <translation>Подписать сообщение, чтобы доказать владение адресом NewCopyCoin</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2069,8 +2069,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified Numus address</source>
-        <translation>Проверить сообщение, чтобы убедиться, что оно было подписано указанным адресом Numus</translation>
+        <source>Verify the message to ensure it was signed with the specified NewCopyCoin address</source>
+        <translation>Проверить сообщение, чтобы убедиться, что оно было подписано указанным адресом NewCopyCoin</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2080,8 +2080,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a Numus address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Введите адрес Numus (напр. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a NewCopyCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Введите адрес NewCopyCoin (напр. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -2090,8 +2090,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter Numus signature</source>
-        <translation>Введите подпись Numus</translation>
+        <source>Enter NewCopyCoin signature</source>
+        <translation>Введите подпись NewCopyCoin</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -2669,7 +2669,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+173"/>
-        <source>Numus version</source>
+        <source>NewCopyCoin version</source>
         <translation>Версия</translation>
     </message>
     <message>
@@ -2679,8 +2679,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or numusd</source>
-        <translation>Отправить команду на -server или numusd</translation>
+        <source>Send command to -server or newcopycoind</source>
+        <translation>Отправить команду на -server или newcopycoind</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2700,13 +2700,13 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+2"/>
-        <source>Specify configuration file (default: numus.conf)</source>
-        <translation>Указать конфигурационный файл (по умолчанию: numus.conf)</translation>
+        <source>Specify configuration file (default: newcopycoin.conf)</source>
+        <translation>Указать конфигурационный файл (по умолчанию: newcopycoin.conf)</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: numusd.pid)</source>
-        <translation>Указать pid-файл (по умолчанию: numusd.pid)</translation>
+        <source>Specify pid file (default: newcopycoind.pid)</source>
+        <translation>Указать pid-файл (по умолчанию: newcopycoind.pid)</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2723,13 +2723,13 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=numusrpc
+rpcuser=newcopycoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Numus Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;NewCopyCoin Alert&quot; admin@foo.com
 </source>
         <translation type="unfinished"/>
     </message>
@@ -2835,8 +2835,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Numus Alert&quot; admin@foo.co
     </message>
     <message>
         <location line="-103"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Numus will not work properly.</source>
-        <translation>Внимание: убедитесь, что дата и время на Вашем компьютере выставлены верно. Если Ваши часы идут неправильно, Numus будет работать некорректно.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong NewCopyCoin will not work properly.</source>
+        <translation>Внимание: убедитесь, что дата и время на Вашем компьютере выставлены верно. Если Ваши часы идут неправильно, NewCopyCoin будет работать некорректно.</translation>
     </message>
     <message>
         <location line="+132"/>
@@ -3142,7 +3142,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Numus Alert&quot; admin@foo.co
     </message>
     <message>
         <location line="+10"/>
-        <source>Initialization sanity check failed. Numus is shutting down.</source>
+        <source>Initialization sanity check failed. NewCopyCoin is shutting down.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3207,13 +3207,13 @@ for example: alertnotify=echo %%s | mail -s &quot;Numus Alert&quot; admin@foo.co
     </message>
     <message>
         <location line="+4"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Numus</source>
-        <translation>Ошибка загрузки wallet.dat: бумажник требует более новую версию Numus</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of NewCopyCoin</source>
+        <translation>Ошибка загрузки wallet.dat: бумажник требует более новую версию NewCopyCoin</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart Numus to complete</source>
-        <translation>Необходимо перезаписать бумажник, перезапустите Numus для завершения операции</translation>
+        <source>Wallet needed to be rewritten: restart NewCopyCoin to complete</source>
+        <translation>Необходимо перезаписать бумажник, перезапустите NewCopyCoin для завершения операции</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3277,8 +3277,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Numus Alert&quot; admin@foo.co
     </message>
     <message>
         <location line="+125"/>
-        <source>Unable to bind to %s on this computer. Numus is probably already running.</source>
-        <translation>Невозможно привязаться к %s на этом компьютере.  Возможно, Numus уже работает.</translation>
+        <source>Unable to bind to %s on this computer. NewCopyCoin is probably already running.</source>
+        <translation>Невозможно привязаться к %s на этом компьютере.  Возможно, NewCopyCoin уже работает.</translation>
     </message>
     <message>
         <location line="-101"/>
@@ -3317,7 +3317,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Numus Alert&quot; admin@foo.co
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. Numus is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. NewCopyCoin is probably already running.</source>
         <translation>Невозможно установить блокировку на рабочую директорию %s.  Возможно, бумажник уже запущен.</translation>
     </message>
     <message>

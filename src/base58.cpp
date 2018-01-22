@@ -226,11 +226,11 @@ int CBase58Data::CompareTo(const CBase58Data& b58) const {
 }
 
 namespace {
-    class CNumuscoinAddressVisitor : public boost::static_visitor<bool> {
+    class CNewCopyCoincoinAddressVisitor : public boost::static_visitor<bool> {
     private:
-        CNumuscoinAddress *addr;
+        CNewCopyCoincoinAddress *addr;
     public:
-        CNumuscoinAddressVisitor(CNumuscoinAddress *addrIn) : addr(addrIn) { }
+        CNewCopyCoincoinAddressVisitor(CNewCopyCoincoinAddress *addrIn) : addr(addrIn) { }
 
         bool operator()(const CKeyID &id) const { return addr->Set(id); }
         bool operator()(const CScriptID &id) const { return addr->Set(id); }
@@ -250,28 +250,28 @@ namespace {
     };
 };
 
-bool CNumuscoinAddress::Set(const CKeyID &id) {
+bool CNewCopyCoincoinAddress::Set(const CKeyID &id) {
     SetData(Params().Base58Prefix(CChainParams::PUBKEY_ADDRESS), &id, 20);
     return true;
 }
 
-bool CNumuscoinAddress::Set(const CScriptID &id) {
+bool CNewCopyCoincoinAddress::Set(const CScriptID &id) {
     SetData(Params().Base58Prefix(CChainParams::SCRIPT_ADDRESS), &id, 20);
     return true;
 }
 
-bool CNumuscoinAddress::Set(const CTxDestination &dest) {
-    return boost::apply_visitor(CNumuscoinAddressVisitor(this), dest);
+bool CNewCopyCoincoinAddress::Set(const CTxDestination &dest) {
+    return boost::apply_visitor(CNewCopyCoincoinAddressVisitor(this), dest);
 }
 
-bool CNumuscoinAddress::IsValid() const {
+bool CNewCopyCoincoinAddress::IsValid() const {
     bool fCorrectSize = vchData.size() == 20;
     bool fKnownVersion = vchVersion == Params().Base58Prefix(CChainParams::PUBKEY_ADDRESS) ||
                          vchVersion == Params().Base58Prefix(CChainParams::SCRIPT_ADDRESS);
     return fCorrectSize && fKnownVersion;
 }
 
-CTxDestination CNumuscoinAddress::Get() const {
+CTxDestination CNewCopyCoincoinAddress::Get() const {
     if (!IsValid())
         return CNoDestination();
     uint160 id;
@@ -284,7 +284,7 @@ CTxDestination CNumuscoinAddress::Get() const {
         return CNoDestination();
 }
 
-bool CNumuscoinAddress::GetKeyID(CKeyID &keyID) const {
+bool CNewCopyCoincoinAddress::GetKeyID(CKeyID &keyID) const {
     if (!IsValid() || vchVersion != Params().Base58Prefix(CChainParams::PUBKEY_ADDRESS))
         return false;
     uint160 id;
@@ -293,34 +293,34 @@ bool CNumuscoinAddress::GetKeyID(CKeyID &keyID) const {
     return true;
 }
 
-bool CNumuscoinAddress::IsScript() const {
+bool CNewCopyCoincoinAddress::IsScript() const {
     return IsValid() && vchVersion == Params().Base58Prefix(CChainParams::SCRIPT_ADDRESS);
 }
 
-void CNumuscoinSecret::SetKey(const CKey& vchSecret) {
+void CNewCopyCoincoinSecret::SetKey(const CKey& vchSecret) {
     assert(vchSecret.IsValid());
     SetData(Params().Base58Prefix(CChainParams::SECRET_KEY), vchSecret.begin(), vchSecret.size());
     if (vchSecret.IsCompressed())
         vchData.push_back(1);
 }
 
-CKey CNumuscoinSecret::GetKey() {
+CKey CNewCopyCoincoinSecret::GetKey() {
     CKey ret;
     ret.Set(&vchData[0], &vchData[32], vchData.size() > 32 && vchData[32] == 1);
     return ret;
 }
 
-bool CNumuscoinSecret::IsValid() const {
+bool CNewCopyCoincoinSecret::IsValid() const {
     bool fExpectedFormat = vchData.size() == 32 || (vchData.size() == 33 && vchData[32] == 1);
     bool fCorrectVersion = vchVersion == Params().Base58Prefix(CChainParams::SECRET_KEY);
     return fExpectedFormat && fCorrectVersion;
 }
 
-bool CNumuscoinSecret::SetString(const char* pszSecret) {
+bool CNewCopyCoincoinSecret::SetString(const char* pszSecret) {
     return CBase58Data::SetString(pszSecret) && IsValid();
 }
 
-bool CNumuscoinSecret::SetString(const std::string& strSecret) {
+bool CNewCopyCoincoinSecret::SetString(const std::string& strSecret) {
     return SetString(strSecret.c_str());
 }
 
